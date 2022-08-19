@@ -29,6 +29,8 @@ destructivelyUpdateEmployee
     delete newEmployee[key]
     return newEmployee;
   }
+
+  //comments
   function destructivelyDeleteFromEmployeeByKey(employee, key){
     delete employee[key];
 
